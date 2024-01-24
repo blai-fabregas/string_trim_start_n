@@ -1,0 +1,7 @@
+def remove_chars (word, number_removed_from_the_string):
+    print ("Original String:", word)
+    result = word [number_removed_from_the_string:]
+    return result
+
+print (remove_chars("padayon"), 4)
+print (remove_chars("engineer"), 2)
